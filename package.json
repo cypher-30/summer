@@ -1,0 +1,27 @@
+{
+  "name": "beatsync",
+  "packageManager": "bun@1.2.2",
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "start": "turbo run start",
+    "server": "turbo start --filter=server",
+    "client": "turbo start --filter=client"
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@aws-sdk/s3-request-presigner": "^3.828.0",
+    "next-auth": "^4.24.11",
+    "react-icons": "^5.5.0",
+    "turbo": "^2.4.4"
+  }
+}

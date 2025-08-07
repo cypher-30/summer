@@ -1,0 +1,13 @@
+{
+  "name": "@beatsync/shared",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "zod": "^3.24.2"
+  }
+}
